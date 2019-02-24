@@ -1,0 +1,81 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+table { 
+    font-size:140%;
+    font-family: "Helvetica","Times New Roman", Times, serif;
+    width:100%;
+    height:60px;
+}
+
+a:hover {
+   color:#55a2a6;
+}
+
+a {
+    color:#454242;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+
+h4 {
+      font-size:140%;
+      font-family: "Helvetica", "Times New Roman", Times, serif;
+      font-weight: 600;
+}
+
+p {
+    font-size:115%;
+    font-family: "Helvetica","Times New Roman", Times, serif;
+    color: white;
+    text-align: center;
+    padding-top:17px;
+    font-weight: 300;
+}
+
+ .row {
+    background-color:white;
+    height:200px;
+  } 
+  
+
+.col-sm {
+    color:#454242;
+    font-size: 120%;
+    font-weight: 600;
+    text-align:center;
+}
+
+.item-title:hover{
+    color:#55a2a6;
+    cursor:pointer;
+  }
+
+.item-title{
+    text-align:center;
+    color:#454242;
+    padding-top:25px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+table { 
+   font-size:120%;
+   font-family: "Helvetica","Times New Roman", Times, serif;
+   width:100%;
+   }
+ 
+.project-title{
+    color:black;
+    text-align: left;
+}
+
+.project-sum{
+    color:black;
+    text-align: left;
+    font-size:90%;
+}

@@ -21,7 +21,7 @@
     <!----NAV BAR----->
         <div>
             <table>
-            <th style="padding-left:15%;text-align:left;">
+            <th style="padding-left:10%;text-align:left;">
                 <h4>Nataliya Zaskalkina</h4>  
             </th>
             <th>
@@ -43,28 +43,29 @@
     <!-----IMAGES&TEXT----->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" style="height:310px;width:100%;">
+              <div class="carousel-item active" style="height:450px;width:100%;">
                 <img class="d-block w-100" src="./img/pic1-1.jpg" alt="First slide">
               </div>
-              <div class="carousel-item" style="height:310px;width:100%;">
-                <img class="d-block w-100" src="./img/pic2-2.jpg"alt="Second slide">
+              <div class="carousel-item" style="height:450px;width:100%;">
+                <img class="d-block w-100" src="./img/pic1-1.jpg"alt="Second slide">
               </div>
-              <div class="carousel-item" style="height:310px;width:100%;">
-                <img class="d-block w-100" src="./img/pic3-3.jpg" alt="Third slide">
+              <div class="carousel-item" style="height:450px;width:100%;">
+                <img class="d-block w-100" src="./img/pic1-1.jpg" alt="Third slide">
               </div>
             </div>
         </div>
         <div style="background-color:#55a2a6;height:65px;">
-            <p><i>"When love and skill work together, expect a masterpiece."</i> - John Ruskin</p>
+            <p><i>"The only place success comes before work is in the dictionary"</i> - Vince Lombardi</p>
         </div> 
+		<!----Alternative quote:"When love and skill work together, expect a masterpiece." John Ruskin---->
     <!-----END IMAGES&TEXT----->
         <div id="skills">
-            <h5>SKILLS</h5>
+            <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">SKILLS</h4>
         </div>
     <br>
     <br>
     <!-----SKILLS----->
-       <div class="container">
+     <div class="container">
             <div class="row">
               <div class="col-sm">
                     <img src="./img/web_dev1.png" alt="" height="150" width="150">
@@ -78,24 +79,39 @@
                     <img src="./img/sql.png" alt="" height="150" width="150" >
                     <p class="item-title">Skill3</p>
               </div>
+            </div>
+    </div> 
+	<br>
+    <div id="line" style="height:2px;margin-left:20%;margin-right:20%;"></div>
+	<br>
+	<div class="container">
+            <div class="row">
               <div class="col-sm">
-                    <img src="./img/sql.png" alt="" height="150" width="150" >
+                    <img src="./img/web_dev1.png" alt="" height="150" width="150">
                     <p class="item-title">Skill4</p>
               </div>
+              <div class="col-sm">
+                    <img src="./img/sql.png" alt="" height="150" width="150" >
+                    <p class="item-title">Skill5</p>
+              </div>
+              <div class="col-sm">
+                    <img src="./img/sql.png" alt="" height="150" width="150" >
+                    <p class="item-title">Skill6</p>
+              </div>
             </div>
-    </div>       
+    </div> 
     <!-----END SKILLS----->
     <br>
     <br>
     <br>
     <br>
     <!-----PORTFOLIO----->
-    <div id="portfolio" style="background-color:#55a2a6;height:4px;"></div>
-    <h5>PORTFOLIO</h5>
+    <div id="portfolio" style="background-color:#55a2a6;height:4px;margin-left:10%;margin-right:10%;"></div>
+    <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">PORTFOLIO</h4>
     <br>
     <br>
     <br>
-    <div class="container">
+    <!----<div class="container">
             <div class="row">
                 <div class="col-sm">
                     <p class="project-title">Project Title1</p>
@@ -110,13 +126,19 @@
                     <p class="project-sum">Project Summary3</p>
                 </div>
             </div>
-    </div>       
+    </div> ------>  
+    <div style="text-align:center;">
+        <h3>COMING SOON</h3>
+	</div>>	
     <!-----END PORTFOLIO----->
     <br>
     <br>
     <!-----ABOUT------>
-    <div id="about" style="background-color:#55a2a6;height:4px;"></div>
-    <h5>ABOUT</h5>
+    <div id="about" style="background-color:#55a2a6;height:4px;margin-left:10%;margin-right:10%;"></div>
+    <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">ABOUT</h4>
+	<div style="text-align:center;">
+        <h3>COMING SOON</h3>
+	</div>
     <br>
     <br>
     <br>
@@ -125,9 +147,18 @@
     <br>
     <!-----END ABOUT----->
     <!-----FOOTER----->
-    <div style="background-color:#454242;height:150px;"></div> 
+    <div style="background-color:#454242;height:150px;">
+	    <div style="text-align:center;padding-top:50px;font-family:"Helvetica", "Times New Roman", Times, serif;" >
+	        <h1><span style="color:#55a2a6;">VAR</span> <span style="color:white;"> ENJOY = {LIFE, LOVE, WORK}</span></h1>
+		</div>
+	</div> 
     <!-----END FOOTER-->
-    <!-- Optional JavaScript -->
+	
+    <!-----JavaScript----->
+	<script>
+        document.getElementById("line").style.borderTopStyle = "dashed";
+		document.getElementById("line").style.borderTopColor = "grey";
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

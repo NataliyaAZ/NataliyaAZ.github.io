@@ -4,8 +4,14 @@ body {
     height: 100%;
 }
 
+
+#main-container {
+    margin: 0% auto;
+    width: 100%;
+} 
+
 table { 
-    font-size:140%;
+    font-size:120%;
     font-family: "Helvetica","Times New Roman", Times, serif;
     width:100%;
     height:60px;
@@ -21,6 +27,52 @@ a {
     font-weight: 600;
 }
 
+.nav-bar {
+	padding-left:200px;
+	text-align:left;
+	width:700px;
+}
+
+.nav {
+	padding-right:200px;
+	width:1150px;	
+}
+
+#quote {
+	background-color:#55a2a6;
+	height:65px;width:100%;
+	margin:auto;
+    color:white;	
+	text-align: center;
+	font-size:18px;
+	padding-top:17px;
+}
+
+.div-title {
+	padding-left:10%;
+	text-align:left;
+	color:#55a2a6;
+}	
+
+.line {
+	background-color:#55a2a6;
+	height:4px;
+	margin-left:10%;
+	margin-right:10%;
+}	
+	
+#picture {
+	width: 100%;
+	height: 30%;
+}
+
+
+
+.row {
+	width: 1000px;
+	height: 30%;
+	margin:auto;
+}
 
 h4 {
       font-size:140%;
@@ -29,12 +81,8 @@ h4 {
 }
 
 p {
-    font-size:115%;
     font-family: "Helvetica","Times New Roman", Times, serif;
-    color: white;
-    text-align: center;
-    padding-top:17px;
-    font-weight: 300;
+    font-weight: 300;	
 }
 
  .row {
@@ -63,22 +111,24 @@ p {
     font-weight: 600;
 }
 
-table { 
-   font-size:120%;
-   font-family: "Helvetica","Times New Roman", Times, serif;
-   width:100%;
-   }
- 
-.project-title{
-    color:black;
-    text-align: left;
+.text-block {
+	width:1100px;
+	height:100px;
+	margin-left:20%;
+	color:#808080;
+	font-size:120%;
+	font-size:120%;
 }
 
-.project-sum{
-    color:black;
-    text-align: left;
-    font-size:90%;
+.button {
+	margin-left:5%;
+	width:20px;
+	height:10px;
+    cursor:pointer;
+    border:none;
+    background:white;
 }
+
 
 
 

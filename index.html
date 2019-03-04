@@ -12,20 +12,21 @@
     <title>Nataliya Zaskalkina</title>
     </head>
     <body>
-
+    
     <!----- HEADER ----->
     <div style="background-color:#454242;height:52px;"></div> 
     <div style="background-color:#55a2a6;height:4px;"></div>
     <!-----END HEADER----->
     <br>
+	<div id="main-container">
     <!----NAV BAR----->
         <div>
             <table>
-            <th style="padding-left:10%;text-align:left;">
+            <th class="nav-bar">
                 <h4>Nataliya Zaskalkina</h4>  
             </th>
             <th>
-                <ul class="nav justify-content-end" style="padding-right:30%;">
+                <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
@@ -41,26 +42,28 @@
         </div>
     <!-----END NAV BAR----->
     <!-----IMAGES&TEXT----->
+	    <div id="picture">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" style="height:450px;width:100%;">
+              <div class="carousel-item active" style="height:100%;width:100%;">
                 <img class="d-block w-100" src="./img/pic1-1.jpg" alt="First slide">
               </div>
-              <div class="carousel-item" style="height:450px;width:100%;">
+              <div class="carousel-item" style="height:100%;width:100%;">
                 <img class="d-block w-100" src="./img/pic1-1.jpg"alt="Second slide">
               </div>
-              <div class="carousel-item" style="height:450px;width:100%;">
+              <div class="carousel-item" style="height:100%;width:100%;">
                 <img class="d-block w-100" src="./img/pic1-1.jpg" alt="Third slide">
               </div>
             </div>
         </div>
-        <div style="background-color:#55a2a6;height:65px;">
+		</div>
+        <div id="quote">
             <p><i>"The only place success comes before work is in the dictionary"</i> - Vince Lombardi</p>
         </div> 
 		<!----Alternative quote:"When love and skill work together, expect a masterpiece." John Ruskin---->
     <!-----END IMAGES&TEXT----->
         <div id="skills">
-            <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">SKILLS</h4>
+            <h4 class="div-title">SKILLS</h4>
         </div>
     <br>
     <br>
@@ -69,75 +72,76 @@
             <div class="row">
               <div class="col-sm">
                     <img src="./img/web_dev1.png" alt="" height="150" width="150">
-                    <p class="item-title">Web Development</p>
+                    <h5 class="item-title">Web Development</h5>
               </div>
               <div class="col-sm">
                     <img src="./img/sql.png" alt="" height="150" width="150" >
-                    <p class="item-title">SQL</p>
+                    <h5 class="item-title">SQL</h5>
               </div>
               <div class="col-sm">
-                    <img src="./img/sql.png" alt="" height="150" width="150" >
-                    <p class="item-title">Skill3</p>
+                    <img src="./img/python.png" alt="" height="150" width="150" >
+                    <h5 class="item-title">Python</h5>
+              </div>
+			  <div class="col-sm">
+                    <img src="./img/c-sharp.png" alt="" height="150" width="150" >
+                    <h5 class="item-title">C#</h5>
               </div>
             </div>
     </div> 
 	<br>
-    <div id="line" style="height:2px;margin-left:20%;margin-right:20%;"></div>
+    <!---------<div id="line" style="height:2px;margin-left:20%;margin-right:20%;"></div>
 	<br>
 	<div class="container">
             <div class="row">
               <div class="col-sm">
                     <img src="./img/web_dev1.png" alt="" height="150" width="150">
-                    <p class="item-title">Skill4</p>
+                    <h5 class="item-title">C#</h5>
               </div>
               <div class="col-sm">
                     <img src="./img/sql.png" alt="" height="150" width="150" >
-                    <p class="item-title">Skill5</p>
-              </div>
-              <div class="col-sm">
-                    <img src="./img/sql.png" alt="" height="150" width="150" >
-                    <p class="item-title">Skill6</p>
+                    <h5 class="item-title">Skill5</h5>
               </div>
             </div>
-    </div> 
+    </div>-------->
     <!-----END SKILLS----->
     <br>
     <br>
     <br>
     <br>
     <!-----PORTFOLIO----->
-    <div id="portfolio" style="background-color:#55a2a6;height:4px;margin-left:10%;margin-right:10%;"></div>
-    <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">PORTFOLIO</h4>
-    <br>
-    <br>
-    <br>
-    <!----<div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p class="project-title">Project Title1</p>
-                    <p class="project-sum">Project Summary1</p>
-                </div>
-                <div class="col-sm">
-                    <p class="project-title">Project Title2</p>
-                    <p class="project-sum">Project Summary2</p>
-                </div>
-                <div class="col-sm">
-                    <p class="project-title">Project Title3</p>
-                    <p class="project-sum">Project Summary3</p>
-                </div>
-            </div>
-    </div> ------>  
-    <div style="text-align:center;">
-        <h3>COMING SOON</h3>
-	</div>>	
+    <div class="line"></div>
+    <h4 id="portfolio" class="div-title">PORTFOLIO</h4>
+    <div class="text-block">
+        <p style="padding-top:20px;font-size:16px;">
+		    <i>For all my projects please visit my Github profile</i>
+		    <button class="button"><img src="./img/github.png" alt="" height="100" width="100"></button>
+		</p>
+	</div>
     <!-----END PORTFOLIO----->
     <br>
     <br>
     <!-----ABOUT------>
-    <div id="about" style="background-color:#55a2a6;height:4px;margin-left:10%;margin-right:10%;"></div>
-    <h4 style="padding-left:10%;text-align:left;color:#55a2a6;">ABOUT</h4>
-	<div style="text-align:center;">
-        <h3>COMING SOON</h3>
+    <div class="line"></div>
+    <h4 id="about" class="div-title">ABOUT</h4>
+	<div class="text-block">
+        <p style="padding-top:20px;font-size:16px;">
+		    <i>I've come from Finance and Accounting industry. I was an Accountant and Payroll Manager for more than a decade, 
+			   and I loved working with numbers, data, and technologies.
+			   <br>
+			   <br>
+               It's been amazing to observe how technologies have changed accounting  work for the past 15 years, 
+			   but the more software solutions and applications the businesses utilized the more I was thinking about 
+			   how I would improve the applications to better reflect our business needs and to be better solutions for our business problems. 
+			   That's why I started looking into becoming a software developer.
+			   <br>
+			   <br>
+               Fortunately for me, in 2018 my family moved to Silicon Valley, and I considered the move as a chance to start my new career journey. 
+			   I know it’s a competitive field, but I've realised it's the kind of work that’s really excites me.
+			   <br>
+			   <br>
+               To find more about my education and experience please visit my LinkedIn profile.			   
+			</i>
+		</p>
 	</div>
     <br>
     <br>
@@ -145,15 +149,19 @@
     <br>
     <br>
     <br>
+	<br>
+	<br>
     <!-----END ABOUT----->
+    <br>
     <!-----FOOTER----->
     <div style="background-color:#454242;height:150px;">
 	    <div style="text-align:center;padding-top:50px;font-family:"Helvetica", "Times New Roman", Times, serif;" >
-	        <h1><span style="color:#55a2a6;">VAR</span> <span style="color:white;"> ENJOY = {LIFE, LOVE, WORK}</span></h1>
+	        <h2><span style="color:#55a2a6;">VAR</span> <span style="color:white;"> ENJOY = {LIFE, LOVE, WORK}</span></h2>
 		</div>
-	</div> 
+	</div>
+   
     <!-----END FOOTER-->
-	
+
     <!-----JavaScript----->
 	<script>
         document.getElementById("line").style.borderTopStyle = "dashed";
@@ -163,5 +171,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+   
+    </body>
 </html>

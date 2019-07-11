@@ -107,6 +107,7 @@
 								CSS3<br/>
 								Bootstrap<br/>
 								Javascript<br/>
+								jQuery<br/>
 							<span/>
 				    </div>
 			    </div>
@@ -135,8 +136,7 @@
 						<h5 class="item-title">C#</h5>	
 						    <span class="tooltip-text">
 								C#<br/>
-								ASP.NET<br/>
-								MVC<br/>
+								ASP.NET MVC<br/>
 								Entity Framework<br/>
 							<span/>
 				    </div>
@@ -148,9 +148,29 @@
     <!-----PORTFOLIO----->
     <div class="line"></div>
     <h4 id="portfolio" class="div-title">PORTFOLIO</h4>
+	 <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="./img/django.png" alt="" height="130" width="130">					
+					<h5 class="item-title" onclick="githubLink('https://github.com/NataliyaAZ/Python-Live-Project')">Python/Django Project</h5>				   
+			    </div>
+                <div class="col-sm">
+                    <img src="./img/mvc.png" alt="" height="150" width="150" >
+					<h5 class="item-title" onclick="githubLink('https://github.com/NataliyaAZ/C-Sharp-Live-Project')">C#/ASP.NET MVC Project</h5>	
+                </div>
+                <div class="col-sm">
+                    <img src="./img/back_end.png" alt="" height="150" width="130" >
+					<h5 class="item-title" onclick="githubLink('https://github.com/NataliyaAZ/Python-BackEnd-Project')">Back-End Project</h5>	
+                </div>
+			    <div class="col-sm">
+                    <img src="./img/front_end.png" alt="" height="150" width="130" >
+					<h5 class="item-title" onclick="githubLink('https://github.com/NataliyaAZ/C-Sharp-FrontEnd-Project')">Front-End Project</h5>	
+                </div>
+            </div>
+    </div> 
     <div class="portfolio-block">
         <p>
-		    <i>For all my projects please visit my <span class="github"><u onclick="githubLink()">Github</u></span> profile.</i>
+		    <i>For all my projects please visit my <span class="github"><u onclick="githubLink('https://github.com/NataliyaAZ')">Github</u></span> profile.</i>
 		    <button class="button" onclick="githubLink()"><img src="./img/github.png" alt="" height="100" width="100"></button>
 		</p>
 	</div>
@@ -168,8 +188,8 @@
 	<script>
         document.getElementById("line").style.borderTopStyle = "dashed";
 		document.getElementById("line").style.borderTopColor = "grey";
-		function githubLink()  {
-		    location.replace("https://github.com/NataliyaAZ");
+		function githubLink(link)  {
+		    location.replace(link);
 		};
 	</script>
     <!-- jQuery, Bootstrap JS-->
